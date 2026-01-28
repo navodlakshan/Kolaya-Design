@@ -93,7 +93,11 @@
 }
 
 .journey-content h4 {
+<<<<<<< Updated upstream
   color: #3DFF2199;
+=======
+  color: #3fff2181;
+>>>>>>> Stashed changes
   font-weight: 700;
   font-size: 30px;
   line-height: 1.3;
