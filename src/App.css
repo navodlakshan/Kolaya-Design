@@ -9,8 +9,33 @@
 body {
   font-family: 'Inter', sans-serif;
   overflow-x: hidden;
+<<<<<<< Updated upstream
+=======
+  scroll-behavior: smooth;
+>>>>>>> Stashed changes
 }
 
 .App {
   text-align: center;
+<<<<<<< Updated upstream
+=======
+}
+
+/* Section styling for scroll spy */
+/* section {
+  min-height: 100vh;
+  padding-top: 80px;
+  scroll-margin-top: 80px;
+} */
+
+/* Remove scroll margin for home section */
+#home {
+  padding-top: 0;
+  scroll-margin-top: 0;
+}
+
+/* Ensure smooth scrolling for anchor links */
+html {
+  scroll-behavior: smooth;
+>>>>>>> Stashed changes
 }
