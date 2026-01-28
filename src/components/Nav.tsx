@@ -1,24 +1,14 @@
 import React, { useEffect, useState } from "react";
-<<<<<<< Updated upstream
-import { Link, useLocation } from "react-router-dom";
-import "../styles/Nav.css";
-import logo from "../assets/images/Logo.png";
-=======
 import { Link } from "react-scroll";
 import "../styles/Nav.css";
 import logo from "../assets/images/Logo.jpeg";
->>>>>>> Stashed changes
 import { Menu, X } from "lucide-react";
 
 const Navbar: React.FC = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [showNavbar, setShowNavbar] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
-<<<<<<< Updated upstream
-  const location = useLocation();
-=======
   const [activeSection, setActiveSection] = useState("home");
->>>>>>> Stashed changes
 
   useEffect(() => {
     let scrollTimeout: ReturnType<typeof setTimeout>;
@@ -39,12 +29,6 @@ const Navbar: React.FC = () => {
       clearTimeout(scrollTimeout);
       scrollTimeout = setTimeout(() => {
         setShowNavbar(true);
-<<<<<<< Updated upstream
-      }, 1500); // Show navbar when scrolling stops
-    };
-
-    window.addEventListener("scroll", handleScroll);
-=======
       }, 1500);
 
       // Update active section based on scroll position
@@ -75,7 +59,6 @@ const Navbar: React.FC = () => {
     // Initial check
     updateActiveSection();
     
->>>>>>> Stashed changes
     return () => {
       window.removeEventListener("scroll", handleScroll);
       clearTimeout(scrollTimeout);
@@ -86,12 +69,6 @@ const Navbar: React.FC = () => {
     setMenuOpen(false);
   };
 
-<<<<<<< Updated upstream
-  // Close mobile menu when route changes
-  useEffect(() => {
-    setMenuOpen(false);
-  }, [location.pathname]);
-=======
   const navItems = [
     { id: "home", label: "Home", offset: -100 },
     { id: "services", label: "Services", offset: -80 },
@@ -99,16 +76,12 @@ const Navbar: React.FC = () => {
     { id: "about", label: "About Us", offset: -80 },
     { id: "contact", label: "Contact Us", offset: -80 },
   ];
->>>>>>> Stashed changes
 
   return (
     <header className={`navbar ${showNavbar ? "visible" : "hidden"}`}>
       <div className="navbar-container">
         <div className="navbar-logo">
           <img src={logo} alt="Kolaya Design Logo" />
-<<<<<<< Updated upstream
-          <Link to="/" onClick={handleNavClick}>
-=======
           <Link
             to="home"
             spy={true}
@@ -118,30 +91,12 @@ const Navbar: React.FC = () => {
             onClick={handleNavClick}
             className="logo-link"
           >
->>>>>>> Stashed changes
             <span>KOLAYA DESIGN</span>
           </Link>
         </div>
 
         <nav className={`navbar-links ${menuOpen ? "open" : ""}`}>
           <ul>
-<<<<<<< Updated upstream
-            <li>
-              <Link to="/" onClick={handleNavClick}>Home</Link>
-            </li>
-            <li>
-              <Link to="/services" onClick={handleNavClick}>Services</Link>
-            </li>
-            <li>
-              <a href="#projects" onClick={handleNavClick}>Projects</a>
-            </li>
-            <li>
-              <a href="#about" onClick={handleNavClick}>About Us</a>
-            </li>
-            <li>
-              <a href="#contact" onClick={handleNavClick}>Contact Us</a>
-            </li>
-=======
             {navItems.map((item) => (
               <li key={item.id}>
                 <Link
@@ -158,7 +113,6 @@ const Navbar: React.FC = () => {
                 </Link>
               </li>
             ))}
->>>>>>> Stashed changes
           </ul>
         </nav>
 

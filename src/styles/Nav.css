@@ -5,10 +5,6 @@
   left: 0;
   width: 100%;
   background: #00000099 !important;
-<<<<<<< Updated upstream
-  /* background: transparent !important; */
-=======
->>>>>>> Stashed changes
   color: #fff;
   z-index: 1000;
   transition: transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94), 
@@ -46,10 +42,7 @@
   align-items: center;
   gap: 12px;
   transition: transform 0.3s ease;
-<<<<<<< Updated upstream
-=======
   cursor: pointer;
->>>>>>> Stashed changes
 }
 
 .navbar-logo:hover {
@@ -58,13 +51,6 @@
 }
 
 .navbar-logo img {
-<<<<<<< Updated upstream
-  width: 60px;
-  height: 60px;
-  object-fit: contain;
-}
-
-=======
   width: 130px !important;
   height: 40px !important;
   object-fit: contain;
@@ -74,19 +60,13 @@
   text-decoration: none;
 }
 
->>>>>>> Stashed changes
 .navbar-logo span {
   font-family: 'Itim', cursive;
   font-weight: 700;
   font-size: 28px;
   letter-spacing: 1.2px;
-<<<<<<< Updated upstream
-  cursor: pointer;
-  color: #fff;
-=======
   color: #fff;
   cursor: pointer;
->>>>>>> Stashed changes
 }
 
 /* ===== Navigation Links ===== */
@@ -108,10 +88,7 @@
   position: relative;
   transition: color 0.3s ease;
   font-family: 'Inter', sans-serif;
-<<<<<<< Updated upstream
-=======
   cursor: pointer;
->>>>>>> Stashed changes
 }
 
 .navbar-links ul li a::after {
@@ -133,8 +110,6 @@
   width: 100%;
 }
 
-<<<<<<< Updated upstream
-=======
 /* Active link styles */
 .navbar-links ul li a.active {
   color: #00ff00;
@@ -144,7 +119,6 @@
   width: 100%;
 }
 
->>>>>>> Stashed changes
 /* ===== Mobile Menu Toggle ===== */
 .navbar-toggle {
   display: none;

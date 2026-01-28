@@ -1,11 +1,7 @@
 import React from "react";
 import "../styles/Footer.css";
-<<<<<<< Updated upstream
-import logo from "../assets/images/Logo.png";
-=======
 import logo from "../assets/images/Logo.jpeg";
 import send from "../assets/images/Send.png";
->>>>>>> Stashed changes
 import { FaFacebookF, FaWhatsapp, FaInstagram, FaXTwitter } from "react-icons/fa6";
 
 const Footer: React.FC = () => {
@@ -62,11 +58,7 @@ const Footer: React.FC = () => {
           </p>
           <div className="subscribe-box">
             <input type="text" placeholder="Send" />
-<<<<<<< Updated upstream
-            <button>➤</button>
-=======
             <button><img src={send} alt="Send" /></button>
->>>>>>> Stashed changes
           </div>
         </div>
       </div>

@@ -9,16 +9,11 @@
 body {
   font-family: 'Inter', sans-serif;
   overflow-x: hidden;
-<<<<<<< Updated upstream
-=======
   scroll-behavior: smooth;
->>>>>>> Stashed changes
 }
 
 .App {
   text-align: center;
-<<<<<<< Updated upstream
-=======
 }
 
 /* Section styling for scroll spy */
@@ -37,5 +32,4 @@ body {
 /* Ensure smooth scrolling for anchor links */
 html {
   scroll-behavior: smooth;
->>>>>>> Stashed changes
 }
