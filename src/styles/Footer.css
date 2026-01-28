@@ -3,10 +3,7 @@
   color: #ccc;
   padding: 60px 8%;
   font-family: "Inter", sans-serif;
-<<<<<<< Updated upstream
-=======
   border-top: 1px solid #ffffff;
->>>>>>> Stashed changes
 }
 
 .footer-container {
@@ -25,13 +22,8 @@
 }
 
 .footer-logo img {
-<<<<<<< Updated upstream
-  width: 40px;
-  height: 40px;
-=======
   width: 130px !important;
   height: 40px !important;
->>>>>>> Stashed changes
 }
 
 .footer-logo h2 {
@@ -99,12 +91,8 @@
 /* --- Subscribe Box --- */
 .footer-subscribe p {
   color: #aaa;
-<<<<<<< Updated upstream
-  font-size: 0.9rem;
-=======
   font-size: 1rem;
   font-weight: 500;
->>>>>>> Stashed changes
   margin-bottom: 15px;
   text-align: left;
 }
@@ -112,12 +100,8 @@
 .subscribe-box {
   display: flex;
   align-items: flex-start !important;
-<<<<<<< Updated upstream
-  background-color: #2a2a2a;
-=======
   background-color: #D9D9D9;
   border: 2px solid #878D95;
->>>>>>> Stashed changes
   border-radius: 25px;
   overflow: hidden;
   width: 100%;
@@ -127,21 +111,6 @@
   flex: 1;
   border: none;
   outline: none;
-<<<<<<< Updated upstream
-  padding: 10px 15px;
-  background: transparent;
-  color: #fff;
-}
-
-.subscribe-box button {
-  background-color: #00ff66;
-  border: none;
-  color: #000;
-  font-size: 1.1rem;
-  padding: 10px 16px;
-  cursor: pointer;
-  transition: 0.3s;
-=======
   padding: 15px 25px;
   background: transparent;
   color: #000000;
@@ -158,15 +127,11 @@
   cursor: pointer;
   transition: 0.3s;
   height: 45px !important;
->>>>>>> Stashed changes
 }
 
 .subscribe-box button:hover {
   background-color: #00cc52;
-<<<<<<< Updated upstream
-=======
   transform: none;
->>>>>>> Stashed changes
 }
 
 /* --- Footer Bottom --- */
