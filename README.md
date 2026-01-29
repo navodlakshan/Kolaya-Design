@@ -78,6 +78,8 @@ KOLAYA-DESIGN/
 - **About Us** - Company story, mission, and team information
 - **ContactUs** - Contact form and business information
 
+  <img width="1573" height="948" alt="Screenshot 2026-01-29 021433" src="https://github.com/user-attachments/assets/ba7f5305-588e-420c-8af2-fd5407302274" />
+
 ## 🎨 Design Resources
 
 - **Figma Prototype**: [View Design](https://www.figma.com/design/uWfTW4T92pdluBDGgsoO0Z/KOLAYA-DESIGN--Web-Site-Phototype-?node-id=2593-76&t=vIKGMnLj5rl8JkYX-0)
