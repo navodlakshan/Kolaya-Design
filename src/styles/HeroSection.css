@@ -56,18 +56,18 @@
 }
 
 .hero-content {
-  max-width: 1200px !important;
+  max-width: 75rem !important;
   width: 100% !important;
   text-align: center;
   color: #fff;
-  padding: 0 20px;
-  margin-top: -50px;
+  padding: 0 1.25rem;
+  margin-top: -3.125rem;
 }
 
 /* ===== Slide Content Animation ===== */
 .slide-content {
   opacity: 0;
-  transform: translateY(30px);
+  transform: translateY(1.875rem);
   transition: all 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
@@ -79,38 +79,38 @@
 /* ===== Typography ===== */
 .hero-title {
   font-family: 'Inter', sans-serif;
-  font-size: 94px !important;
+  font-size: 5.875rem !important;
   font-weight: 800 !important;
   line-height: 1.1;
-  margin-bottom: 50px;
-  margin-top: 30px;
+  margin-bottom: 3.125rem;
+  margin-top: 1.875rem;
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 0.125rem;
   background: linear-gradient(111deg, #02FF1B 0%, #009311 100%),
   linear-gradient(0deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)) !important;
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: #02ff1b6b !important;
-  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+  text-shadow: 0.125rem 0.125rem 0.5rem rgba(0, 0, 0, 0.8);
   animation: titleSlideIn 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
 .hero-description {
   font-family: 'Inria Serif', serif;
-  max-width: 800px !important;
-  margin: 0 auto 50px;
-  font-size: 34px !important;
+  max-width: 50rem !important;
+  margin: 0 auto 3.125rem;
+  font-size: 2.125rem !important;
   line-height: 1.6;
   color: #AEC7E9;
   font-weight: 400 !important;
-  letter-spacing: 0.5px;
-  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
+  letter-spacing: 0.03125rem;
+  text-shadow: 0.0625rem 0.0625rem 0.25rem rgba(0, 0, 0, 0.8);
   animation: descriptionSlideIn 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.2s both;
 }
 
 @keyframes titleSlideIn {
   from {
     opacity: 0;
-    transform: translateY(50px);
+    transform: translateY(3.125rem);
   }
   to {
     opacity: 1;
@@ -121,7 +121,7 @@
 @keyframes descriptionSlideIn {
   from {
     opacity: 0;
-    transform: translateY(30px);
+    transform: translateY(1.875rem);
   }
   to {
     opacity: 1;
@@ -132,26 +132,26 @@
 /* ===== Fixed Position Slide Indicators ===== */
 .slide-indicators {
   position: absolute;
-  bottom: 40px;
+  bottom: 2.5rem;
   left: 50%;
   transform: translateX(-50%);
   display: flex;
   justify-content: center;
-  gap: 12px;
+  gap: 0.75rem;
   z-index: 1000;
-  padding: 15px 20px;
-  border-radius: 10px;
+  padding: 0.9375rem 1.25rem;
+  border-radius: 0.625rem;
   /* background: none !important; */
   /* backdrop-filter: blur(10px); */
-  -webkit-backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(0.625rem);
 }
 
 .indicator {
-  width: 60px;
-  height: 2px !important;
+  width: 3.75rem;
+  height: 0.125rem !important;
   background: rgba(255, 255, 255, 0.3);
   border: none;
-  border-radius: 10px;
+  border-radius: 0.625rem;
   cursor: pointer;
   position: relative;
   overflow: hidden;
@@ -190,132 +190,132 @@
 /* ===== Responsive Design ===== */
 
 /* Large Desktop */
-@media (min-width: 1440px) {
+@media (min-width: 90rem) {
   .hero-title {
-    font-size: 100px !important;
+    font-size: 6.25rem !important;
   }
   
   .hero-description {
-    font-size: 26px !important;
-    max-width: 900px !important;
+    font-size: 1.625rem !important;
+    max-width: 56.25rem !important;
   }
 }
 
 /* Tablet */
-@media (max-width: 1024px) {
+@media (max-width: 64rem) {
   .hero-section {
-    min-height: 700px !important;
+    min-height: 43.75rem !important;
   }
   
   .hero-title {
-    font-size: 64px !important;
-    margin-bottom: 25px !important;
+    font-size: 4rem !important;
+    margin-bottom: 1.5625rem !important;
   }
 
   .hero-description {
-    font-size: 22px !important;
-    margin-bottom: 40px !important;
-    max-width: 700px !important;
+    font-size: 1.375rem !important;
+    margin-bottom: 2.5rem !important;
+    max-width: 43.75rem !important;
   }
 
   .slide-indicators {
-    bottom: 35px;
-    padding: 12px 18px;
+    bottom: 2.1875rem;
+    padding: 0.75rem 1.125rem;
   }
 }
 
 /* Mobile */
-@media (max-width: 768px) {
+@media (max-width: 48rem) {
   .hero-section {
     height: 100vh !important;
-    min-height: 600px !important;
+    min-height: 37.5rem !important;
   }
 
   .hero-content {
     width: 95% !important;
-    padding: 0 15px !important;
+    padding: 0 0.9375rem !important;
   }
 
   .hero-title {
-    font-size: 42px !important;
-    margin-bottom: 20px !important;
-    letter-spacing: 1.5px !important;
+    font-size: 2.625rem !important;
+    margin-bottom: 1.25rem !important;
+    letter-spacing: 0.09375rem !important;
   }
 
   .hero-description {
-    font-size: 18px !important;
+    font-size: 1.125rem !important;
     line-height: 1.5 !important;
-    margin-bottom: 35px !important;
-    padding: 0 10px !important;
+    margin-bottom: 2.1875rem !important;
+    padding: 0 0.625rem !important;
   }
 
   .slide-indicators {
-    bottom: 30px;
-    gap: 10px;
-    padding: 10px 15px;
+    bottom: 1.875rem;
+    gap: 0.625rem;
+    padding: 0.625rem 0.9375rem;
   }
 
   .indicator {
-    width: 45px;
-    height: 3px;
+    width: 2.8125rem;
+    height: 0.1875rem;
   }
 }
 
 /* Small Mobile */
-@media (max-width: 480px) {
+@media (max-width: 30rem) {
   .hero-title {
-    font-size: 38px !important;
-    margin-bottom: 45px !important;
-    letter-spacing: 3px !important;
+    font-size: 2.375rem !important;
+    margin-bottom: 2.8125rem !important;
+    letter-spacing: 0.1875rem !important;
   }
 
   .hero-description {
-    font-size: 16px !important;
-    margin-bottom: 20px !important;
+    font-size: 1rem !important;
+    margin-bottom: 1.25rem !important;
     line-height: 1.6 !important;
   }
 
   .slide-indicators {
-    bottom: 25px;
-    gap: 8px;
-    padding: 8px 12px;
+    bottom: 1.5625rem;
+    gap: 0.5rem;
+    padding: 0.5rem 0.75rem;
   }
 
   .indicator {
-    width: 35px;
-    height: 2px;
+    width: 2.1875rem;
+    height: 0.125rem;
   }
 
   .hero-content {
-    padding: 0 10px;
+    padding: 0 0.625rem;
   }
 }
 
 /* Landscape Mobile */
-@media (max-height: 600px) and (orientation: landscape) {
+@media (max-height: 37.5rem) and (orientation: landscape) {
   .hero-section {
     height: 100vh !important;
-    min-height: 400px !important;
+    min-height: 25rem !important;
   }
 
   .hero-content {
     transform: scale(0.9);
-    margin-top: -30px;
+    margin-top: -1.875rem;
   }
 
   .hero-title {
-    font-size: 36px;
-    margin-bottom: 15px;
+    font-size: 2.25rem;
+    margin-bottom: 0.9375rem;
   }
 
   .hero-description {
-    font-size: 16px;
-    margin-bottom: 20px;
-    max-width: 600px;
+    font-size: 1rem;
+    margin-bottom: 1.25rem;
+    max-width: 37.5rem;
   }
 
   .slide-indicators {
-    bottom: 20px;
-    padding: 6px 10px;
+    bottom: 1.25rem;
+    padding: 0.375rem 0.625rem;
   }
 }

@@ -1,6 +1,5 @@
 import React from "react";
 import "../styles/Services.css";
-// import { FaPaintBrush, FaLaptopCode, FaCode, FaBullhorn } from "react-icons/fa";
 import Image1 from "../assets/images/Branding.png"; 
 import Image2 from "../assets/images/WebDesign.png"; 
 import Image3 from "../assets/images/Software.png"; 

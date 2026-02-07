@@ -1,18 +1,18 @@
 .feedback-section {
   background-color: #1f2227;
-  padding: 80px 20px;
+  padding: 5rem 1.25rem;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, sans-serif;
   overflow: hidden;
 }
 
 .feedback-wrapper {
-  max-width: 1200px;
+  max-width: 75rem;
   margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 60px;
+  gap: 3.75rem;
 }
 
 /* LEFT */
@@ -24,21 +24,21 @@
   color: #3DFF21CC !important;
   font-family: Inria, sans-serif;
   font-weight: 700;
-  font-size: 32px;
+  font-size: 2rem;
   line-height: 1.2;
-  letter-spacing: 0px;
+  letter-spacing: 0rem;
   text-align: left;
-  margin-bottom: 16px;
+  margin-bottom: 1rem;
 }
 
 .feedback-title {
   color: #ffffff;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
   font-family: Inter, sans-serif;
   font-weight: 700;
-  font-size: 36px;
+  font-size: 2.25rem;
   line-height: 1.2;
-  letter-spacing: 0px;
+  letter-spacing: 0rem;
   text-align: left;
 }
 
@@ -46,11 +46,11 @@
   color: #cfd3da;
   font-family: Inter, sans-serif;
   font-weight: 300;
-  font-size: 18px;
+  font-size: 1.125rem;
   line-height: 1.6;
-  letter-spacing: 0px;
+  letter-spacing: 0rem;
   text-align: left;
-  max-width: 500px;
+  max-width: 31.25rem;
 }
 
 /* RIGHT */
@@ -63,21 +63,21 @@
 .slideshow-container {
   position: relative;
   width: 100%;
-  max-width: 840px;
+  max-width: 52.5rem;
   margin: 0 auto;
 }
 
 .slides-wrapper {
   position: relative;
-  height: 416px;
+  height: 26rem;
   overflow: hidden;
 }
 
 /* CARD */
 .testimonial-card {
   background-color: #D9D9D9;
-  border-radius: 30px !important;
-  padding: 40px 32px;
+  border-radius: 1.875rem !important;
+  padding: 2.5rem 2rem;
   box-sizing: border-box !important;
   height: 100%;
   width: 100%;
@@ -121,14 +121,14 @@
 }
 
 .client-avatar {
-  width: 90px !important;
-  height: 90px !important;
+  width: 5.625rem !important;
+  height: 5.625rem !important;
   border-radius: 50%;
-  margin-bottom: 16px;
+  margin-bottom: 1rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: 700;
   color: white;
   overflow: visible !important;
@@ -145,27 +145,27 @@
 }
 
 .avatar-initials {
-  font-size: 32px;
+  font-size: 2rem;
   color: white;
 }
 
 .client-name {
   font-size: 1.4rem;
   font-weight: 700;
-  margin-bottom: 4px;
+  margin-bottom: 0.25rem;
   color: #000;
 }
 
 .client-role {
   font-size: 0.95rem;
   color: #666;
-  margin-bottom: 14px;
+  margin-bottom: 0.875rem;
 }
 
 .star-rating {
   display: flex;
   justify-content: center;
-  margin-bottom: 16px;
+  margin-bottom: 1rem;
 }
 
 .star-icon {
@@ -178,7 +178,7 @@
   color: #222;
   line-height: 1.7;
   font-weight: 500;
-  max-width: 600px;
+  max-width: 37.5rem;
   margin: 0 auto;
 }
 
@@ -188,10 +188,10 @@
   top: 50%;
   transform: translateY(-50%);
   background: rgba(255, 255, 255, 0.1);
-  border: 2px solid rgba(255, 255, 255, 0.3);
+  border: 0.125rem solid rgba(255, 255, 255, 0.3);
   color: white;
-  width: 50px;
-  height: 50px;
+  width: 3.125rem;
+  height: 3.125rem;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -199,7 +199,7 @@
   cursor: pointer;
   z-index: 10;
   transition: all 0.3s ease;
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(0.625rem);
 }
 
 .nav-button:hover {
@@ -212,11 +212,11 @@
 }
 
 .prev-button {
-  left: -25px;
+  left: -1.5625rem;
 }
 
 .next-button {
-  right: -25px;
+  right: -1.5625rem;
 }
 
 .nav-button svg {
@@ -226,14 +226,14 @@
 /* DOTS */
 .testimonial-dots {
   display: flex;
-  gap: 10px;
-  margin-top: 30px;
+  gap: 0.625rem;
+  margin-top: 1.875rem;
   justify-content: center;
 }
 
 .dot {
-  width: 12px;
-  height: 12px;
+  width: 0.75rem;
+  height: 0.75rem;
   background-color: #2b9cff;
   border-radius: 50%;
   opacity: 0.4;
@@ -256,14 +256,14 @@
 /* Mobile Dots - Only visible on mobile */
 .mobile-dots {
   display: none;
-  gap: 8px;
-  margin-top: 30px;
+  gap: 0.5rem;
+  margin-top: 1.875rem;
   justify-content: center;
 }
 
 .mobile-dot {
-  width: 10px;
-  height: 10px;
+  width: 0.625rem;
+  height: 0.625rem;
   background-color: #2b9cff;
   border-radius: 50%;
   opacity: 0.4;
@@ -280,11 +280,11 @@
 
 /* RESPONSIVE */
 /* Tablet adjustments */
-@media (max-width: 992px) {
+@media (max-width: 62rem) {
   .feedback-wrapper {
     flex-direction: column;
     text-align: center;
-    gap: 40px;
+    gap: 2.5rem;
   }
 
   .feedback-left {
@@ -308,24 +308,24 @@
   }
 
   .slides-wrapper {
-    height: 380px;
+    height: 23.75rem;
   }
 
   .testimonial-card {
-    padding: 30px 24px;
+    padding: 1.875rem 1.5rem;
   }
 
   .prev-button {
-    left: 10px;
+    left: 0.625rem;
   }
 
   .next-button {
-    right: 10px;
+    right: 0.625rem;
   }
 
   .nav-button {
-    width: 45px;
-    height: 45px;
+    width: 2.8125rem;
+    height: 2.8125rem;
   }
   
   .nav-button svg {
@@ -334,42 +334,42 @@
 }
 
 /* Tablet (small) */
-@media (max-width: 768px) {
+@media (max-width: 48rem) {
   .feedback-section {
-    padding: 60px 20px;
+    padding: 3.75rem 1.25rem;
   }
 
   .feedback-subtitle {
-    font-size: 28px;
+    font-size: 1.75rem;
   }
 
   .feedback-title {
-    font-size: 32px;
-    margin-bottom: 12px;
+    font-size: 2rem;
+    margin-bottom: 0.75rem;
   }
 
   .feedback-tagline {
-    font-size: 16px;
+    font-size: 1rem;
     max-width: 100%;
   }
 
   .slides-wrapper {
-    height: 350px;
+    height: 21.875rem;
   }
 
   .testimonial-card {
-    padding: 25px 20px;
-    border-radius: 25px;
+    padding: 1.5625rem 1.25rem;
+    border-radius: 1.5625rem;
   }
 
   .client-avatar {
-    width: 80px;
-    height: 80px;
+    width: 5rem;
+    height: 5rem;
   }
 
   .avatar-image {
-    width: 80px;
-    height: 80px;
+    width: 5rem;
+    height: 5rem;
   }
 
   .client-name {
@@ -382,75 +382,75 @@
 
   .testimonial-text {
     font-size: 1rem;
-    padding: 0 10px;
+    padding: 0 0.625rem;
   }
   
   /* Make navigation buttons more visible */
   .nav-button {
     background: rgba(0, 0, 0, 0.2);
-    border: 2px solid rgba(255, 255, 255, 0.8);
+    border: 0.125rem solid rgba(255, 255, 255, 0.8);
   }
 }
 
 /* Mobile */
-@media (max-width: 576px) {
+@media (max-width: 36rem) {
   .feedback-section {
-    padding: 40px 16px;
+    padding: 2.5rem 1rem;
   }
 
   .feedback-wrapper {
-    gap: 30px;
+    gap: 1.875rem;
   }
 
   .feedback-subtitle {
-    font-size: 24px;
-    margin-bottom: 12px;
+    font-size: 1.5rem;
+    margin-bottom: 0.75rem;
   }
 
   .feedback-title {
-    font-size: 28px;
-    margin-bottom: 10px;
+    font-size: 1.75rem;
+    margin-bottom: 0.625rem;
   }
 
   .feedback-tagline {
-    font-size: 14px;
+    font-size: 0.875rem;
     line-height: 1.5;
     max-width: 100%;
   }
 
   .slides-wrapper {
-    height: 320px;
-    margin: 0 -10px;
+    height: 20rem;
+    margin: 0 -0.625rem;
   }
 
   .slideshow-container {
-    padding: 0 10px;
+    padding: 0 0.625rem;
   }
 
   .testimonial-card {
-    padding: 20px 16px;
-    border-radius: 20px;
-    margin: 0 5px;
+    padding: 1.25rem 1rem;
+    border-radius: 1.25rem;
+    margin: 0 0.3125rem;
   }
 
   .client-avatar {
-    width: 70px;
-    height: 70px;
+    width: 4.375rem;
+    height: 4.375rem;
   }
 
   .avatar-image {
-    width: 70px;
-    height: 70px;
+    width: 4.375rem;
+    height: 4.375rem;
   }
 
   .client-name {
     font-size: 1.2rem;
-    margin-top: 10px;
+    margin-top: 0.625rem;
   }
 
   .client-role {
     font-size: 0.85rem;
-    margin-bottom: 12px;
+    margin-bottom: 0.75rem;
   }
 
   .star-icon {
@@ -458,7 +458,7 @@
   }
 
   .star-rating {
-    margin-bottom: 12px;
+    margin-bottom: 0.75rem;
   }
 
   .testimonial-text {
@@ -474,7 +474,7 @@
 
   .mobile-dots {
     display: flex;
-    margin-top: 25px;
+    margin-top: 1.5625rem;
   }
 
   /* Hide navigation buttons on mobile */
@@ -486,50 +486,50 @@
   .slideshow-container::after {
     content: '← Swipe →';
     position: absolute;
-    bottom: -30px;
+    bottom: -1.875rem;
     left: 50%;
     transform: translateX(-50%);
     color: #cfd3da;
-    font-size: 12px;
+    font-size: 0.75rem;
     opacity: 0.7;
   }
 }
 
 /* Very small mobile */
-@media (max-width: 375px) {
+@media (max-width: 23.4375rem) {
   .feedback-section {
-    padding: 30px 12px;
+    padding: 1.875rem 0.75rem;
   }
 
   .feedback-subtitle {
-    font-size: 22px;
+    font-size: 1.375rem;
   }
 
   .feedback-title {
-    font-size: 26px;
+    font-size: 1.625rem;
   }
 
   .feedback-tagline {
-    font-size: 13px;
+    font-size: 0.8125rem;
   }
 
   .slides-wrapper {
-    height: 300px;
+    height: 18.75rem;
   }
 
   .testimonial-card {
-    padding: 18px 14px;
-    border-radius: 18px;
+    padding: 1.125rem 0.875rem;
+    border-radius: 1.125rem;
   }
 
   .client-avatar {
-    width: 60px;
-    height: 60px;
+    width: 3.75rem;
+    height: 3.75rem;
   }
 
   .avatar-image {
-    width: 60px;
-    height: 60px;
+    width: 3.75rem;
+    height: 3.75rem;
   }
 
   .client-name {
@@ -551,21 +551,21 @@
 }
 
 /* Landscape mode adjustments */
-@media (max-height: 500px) and (orientation: landscape) {
+@media (max-height: 31.25rem) and (orientation: landscape) {
   .feedback-section {
-    padding: 30px 20px;
+    padding: 1.875rem 1.25rem;
   }
   
   .slides-wrapper {
-    height: 280px;
+    height: 17.5rem;
   }
   
   .testimonial-card {
-    padding: 15px 20px;
+    padding: 0.9375rem 1.25rem;
   }
   
   .feedback-wrapper {
-    gap: 20px;
+    gap: 1.25rem;
   }
 }
 
@@ -592,10 +592,10 @@
 }
 
 /* Accessibility improvements for mobile */
-@media (max-width: 576px) {
+@media (max-width: 36rem) {
   .mobile-dot:focus-visible,
   .testimonial-card:focus-visible {
-    outline: 2px solid #3DFF21CC;
-    outline-offset: 2px;
+    outline: 0.125rem solid #3DFF21CC;
+    outline-offset: 0.125rem;
   }
 }

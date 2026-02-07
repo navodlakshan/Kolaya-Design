@@ -19,8 +19,8 @@ body {
 /* Section styling for scroll spy */
 /* section {
   min-height: 100vh;
-  padding-top: 80px;
-  scroll-margin-top: 80px;
+  padding-top: 5rem;
+  scroll-margin-top: 5rem;
 } */
 
 /* Remove scroll margin for home section */
