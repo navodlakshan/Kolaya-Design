@@ -14,7 +14,6 @@ const Location: React.FC = () => {
 
   return (
     <div className="location-container">
-
       <div className="map-wrapper">
         {isLoading && <div className="map-loading">Loading map...</div>}
         <div className={`map-container ${isLoading ? "loading" : ""}`}>

@@ -31,7 +31,6 @@ const OurTeam: React.FC = () => {
 
   return (
     <div className="our-team-container">
-
       {/* Hero Section */}
       <section className="team-hero-section">
         <div className="hero-content">

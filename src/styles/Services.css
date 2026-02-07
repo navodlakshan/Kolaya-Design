@@ -8,7 +8,7 @@
 /* Hero Section */
 .services-hero {
   width: 100%;
-  padding: 80px 20px 60px;
+  padding: 5rem 1.25rem 3.75rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -19,10 +19,10 @@
 
 .services-hero h1 {
   color: #FFFFFF;
-  font-size: 80px;
+  font-size: 5rem;
   font-weight: 700;
-  margin-bottom: 50px;
-  max-width: 1100px;
+  margin-bottom: 3.125rem;
+  max-width: 68.75rem;
   text-align: center;
   line-height: 1.1;
 }
@@ -30,34 +30,34 @@
 .services-hero p {
   font-family: Inter;
   font-weight: 400;
-  font-size: 25px;
-  line-height: 43.6px;
-  letter-spacing: 1px;
+  font-size: 1.5625rem;
+  line-height: 2.725rem;
+  letter-spacing: 0.0625rem;
   text-align: center;
   color: #FFFFFF;
   margin: 0 auto;
-  max-width: 1300px;
+  max-width: 81.25rem;
 }
 
 /* Services Section */
 .services-grid-section {
-  padding: 40px 20px 100px;
+  padding: 2.5rem 1.25rem 6.25rem;
 }
 
 .services-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 40px;
-  max-width: 1450px;
+  grid-template-columns: repeat(auto-fit, minmax(17.5rem, 1fr));
+  gap: 2.5rem;
+  max-width: 90.625rem;
   margin: 0 auto;
 }
 
 /* Individual Service Card */
 .service-card {
   background: transparent;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 12px;
-  padding: 30px 20px;
+  border: 0.0625rem solid rgba(255, 255, 255, 0.1);
+  border-radius: 0.75rem;
+  padding: 1.875rem 1.25rem;
   transition: all 0.3s ease;
   display: flex;
   flex-direction: column;
@@ -67,21 +67,21 @@
 
 .service-card:hover {
   background-color: rgba(255, 255, 255, 0.05);
-  transform: translateY(-5px);
+  transform: translateY(-0.3125rem);
 }
 
 /* Icons */
 .service-icon {
   font-size: 3rem;
   color: #00ff66;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
 
 /* Titles */
 .service-card h3 {
   font-size: 1.25rem;
   font-weight: 700;
-  margin-bottom: 15px;
+  margin-bottom: 0.9375rem;
 }
 
 /* Descriptions */
@@ -94,59 +94,59 @@
 }
 
 /* Tablet Responsive */
-@media (max-width: 1024px) {
+@media (max-width: 64rem) {
   .services-hero h1 {
-    font-size: 60px;
-    margin-bottom: 40px;
-    max-width: 900px;
+    font-size: 3.75rem;
+    margin-bottom: 2.5rem;
+    max-width: 56.25rem;
   }
 
   .services-hero p {
-    font-size: 22px;
-    line-height: 38px;
-    max-width: 1000px;
+    font-size: 1.375rem;
+    line-height: 2.375rem;
+    max-width: 62.5rem;
   }
 
   .services-grid {
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 30px;
-    max-width: 1200px;
+    grid-template-columns: repeat(auto-fit, minmax(15.625rem, 1fr));
+    gap: 1.875rem;
+    max-width: 75rem;
   }
 }
 
 /* Mobile Responsive */
-@media (max-width: 768px) {
+@media (max-width: 48rem) {
   .services-hero {
-    padding: 60px 15px 40px;
+    padding: 3.75rem 0.9375rem 2.5rem;
   }
 
   .services-hero h1 {
-    font-size: 42px;
-    margin-bottom: 30px;
+    font-size: 2.625rem;
+    margin-bottom: 1.875rem;
     max-width: 100%;
-    padding: 0 10px;
+    padding: 0 0.625rem;
   }
 
   .services-hero p {
-    font-size: 18px;
-    line-height: 32px;
-    letter-spacing: 0.5px;
+    font-size: 1.125rem;
+    line-height: 2rem;
+    letter-spacing: 0.03125rem;
     max-width: 100%;
-    padding: 0 10px;
+    padding: 0 0.625rem;
   }
 
   .services-grid-section {
-    padding: 30px 15px 80px;
+    padding: 1.875rem 0.9375rem 5rem;
   }
 
   .services-grid {
     grid-template-columns: 1fr;
-    gap: 25px;
-    max-width: 500px;
+    gap: 1.5625rem;
+    max-width: 31.25rem;
   }
 
   .service-card {
-    padding: 25px 15px;
+    padding: 1.5625rem 0.9375rem;
   }
 
   .service-icon {
@@ -155,42 +155,42 @@
 }
 
 /* Small Mobile Responsive */
-@media (max-width: 480px) {
+@media (max-width: 30rem) {
   .services-hero {
-    padding: 50px 10px 30px;
+    padding: 3.125rem 0.625rem 1.875rem;
   }
 
   .services-hero h1 {
-    font-size: 32px;
-    margin-bottom: 25px;
+    font-size: 2rem;
+    margin-bottom: 1.5625rem;
   }
 
   .services-hero p {
-    font-size: 16px;
-    line-height: 28px;
-    letter-spacing: 0.3px;
+    font-size: 1rem;
+    line-height: 1.75rem;
+    letter-spacing: 0.01875rem;
   }
 
   .services-grid-section {
-    padding: 20px 10px 60px;
+    padding: 1.25rem 0.625rem 3.75rem;
   }
 
   .services-grid {
-    gap: 20px;
+    gap: 1.25rem;
   }
 
   .service-card {
-    padding: 20px 15px;
+    padding: 1.25rem 0.9375rem;
   }
 
   .service-icon {
     font-size: 2.2rem;
-    margin-bottom: 15px;
+    margin-bottom: 0.9375rem;
   }
 
   .service-card h3 {
     font-size: 1.1rem;
-    margin-bottom: 12px;
+    margin-bottom: 0.75rem;
   }
 
   .service-card p {

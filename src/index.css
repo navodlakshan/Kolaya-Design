@@ -27,8 +27,22 @@
   --background-primary: #242424;
   --background-secondary: #1a1a1a;
   --border-color: rgba(255, 255, 255, 0.1);
-  --shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  --shadow: 0 0.25rem 1.25rem rgba(0, 0, 0, 0.1);
   --transition: all 0.3s ease;
+  
+  /* Theme Color Variables */
+  --theme-color: #02FF1B;
+  --theme-color-dark: #02D617;
+  --theme-color-light: rgba(2, 255, 27, 0.1);
+  --theme-gradient: linear-gradient(135deg, var(--theme-color) 0%, #02D617 100%);
+  --theme-gradient-hover: linear-gradient(135deg, #02D617 0%, #02B214 100%);
+  --text-light: #FFFFFF;
+  --text-dark: #333333;
+  --bg-dark: #111111;
+  --bg-light: #FFFFFF;
+  --border-light: #e1e5e9;
+  --theme-glow: rgba(2, 255, 27, 0.6);
+  --theme-glow-strong: rgba(2, 255, 27, 0.8);
 }
 
 /* ===== Base Element Styles ===== */
@@ -38,7 +52,7 @@ html {
 
 body {
   margin: 0;
-  min-width: 320px;
+  min-width: 20rem;
   min-height: 100vh;
   background-color: var(--background-primary);
   color: var(--text-primary);
@@ -93,8 +107,8 @@ a:hover {
 
 /* ===== Button Styles ===== */
 button {
-  border-radius: 8px;
-  border: 1px solid transparent;
+  border-radius: 0.5rem;
+  border: 0.0625rem solid transparent;
   padding: 0.6em 1.2em;
   font-size: 1em;
   font-weight: 500;
@@ -107,14 +121,14 @@ button {
 
 button:hover {
   border-color: var(--secondary-color);
-  transform: translateY(-2px);
+  transform: translateY(-0.125rem);
   box-shadow: var(--shadow);
 }
 
 button:focus,
 button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-  outline-offset: 2px;
+  outline: 0.25rem auto -webkit-focus-ring-color;
+  outline-offset: 0.125rem;
 }
 
 button:active {
@@ -123,7 +137,7 @@ button:active {
 
 /* ===== Layout Utilities ===== */
 .container {
-  max-width: 1200px;
+  max-width: 75rem;
   margin: 0 auto;
   padding: 0 1.5rem;
 }
@@ -138,15 +152,15 @@ button:active {
 
 /* ===== Main Content Area ===== */
 .main-content {
-  margin-top: 80px; /* Account for fixed header */
-  min-height: calc(100vh - 80px);
+  margin-top: 5rem; /* Account for fixed header */
+  min-height: calc(100vh - 5rem);
   width: 100%;
 }
 
 /* ===== Responsive Design ===== */
 
 /* Tablet Styles */
-@media (max-width: 1024px) {
+@media (max-width: 64rem) {
   .container {
     padding: 0 1.25rem;
   }
@@ -169,9 +183,9 @@ button:active {
 }
 
 /* Mobile Styles */
-@media (max-width: 768px) {
+@media (max-width: 48rem) {
   :root {
-    font-size: 14px;
+    font-size: 0.875rem;
   }
   
   .container {
@@ -195,15 +209,15 @@ button:active {
   }
   
   .main-content {
-    margin-top: 70px;
-    min-height: calc(100vh - 70px);
+    margin-top: 4.375rem;
+    min-height: calc(100vh - 4.375rem);
   }
 }
 
 /* Small Mobile Styles */
-@media (max-width: 480px) {
+@media (max-width: 30rem) {
   :root {
-    font-size: 13px;
+    font-size: 0.8125rem;
   }
   
   .container {
@@ -266,9 +280,9 @@ button:active {
 
 /* Focus styles for keyboard navigation */
 :focus-visible {
-  outline: 2px solid var(--secondary-color);
-  outline-offset: 2px;
-  border-radius: 2px;
+  outline: 0.125rem solid var(--secondary-color);
+  outline-offset: 0.125rem;
+  border-radius: 0.125rem;
 }
 
 /* High contrast mode support */
@@ -283,13 +297,13 @@ button:active {
   
   .header {
     background: #fff;
-    border-bottom: 2px solid #000;
+    border-bottom: 0.125rem solid #000;
   }
 }
 
 /* ===== Scrollbar Styling ===== */
 ::-webkit-scrollbar {
-  width: 8px;
+  width: 0.5rem;
 }
 
 ::-webkit-scrollbar-track {
@@ -298,7 +312,7 @@ button:active {
 
 ::-webkit-scrollbar-thumb {
   background: var(--secondary-color);
-  border-radius: 4px;
+  border-radius: 0.25rem;
 }
 
 ::-webkit-scrollbar-thumb:hover {
